@@ -21,3 +21,7 @@ describe('sayHello', function() {
     });
 
 });
+// Exercise 2
+    it('should be a defined function', function() {
+        expect(typeof sayHello).toBe('function');
+    });
