@@ -13,3 +13,11 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+// Exercise 1
+describe('sayHello', function() {
+    // Test to check if sayHello is a defined function
+    it('should be a defined function', function() {
+        expect(typeof sayHello).toBe('function');
+    });
+
+});
