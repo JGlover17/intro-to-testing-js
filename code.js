@@ -6,3 +6,6 @@ function sayHello() {
     return "";
     // Function body can be added here later
 }
+function sayHello(name) {
+    return "Hello, " + name + "!";
+}
